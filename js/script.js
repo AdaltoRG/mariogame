@@ -30,3 +30,7 @@ const loop = setInterval(() => {
 
 }, 10);
 document.addEventListener('keydown', jump);
+
+function restart(){
+    location.reload();
+}
